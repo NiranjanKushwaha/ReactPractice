@@ -1,0 +1,48 @@
+{
+    "type":"folder",
+    "name":"React project",
+    "child":[
+       {
+        "type" : "folder",
+        "name"  :"public",
+        "child":[
+            {
+                "type":"file",
+                "name":"index.html"
+            },
+            {
+                "type":"file",
+                "name":"favicon.ico"
+            }
+        ]
+       },
+       {
+        "type" : "folder",
+        "name"  :"src",
+        "child":[
+            {
+                "type":"folder",
+                "name":"components",
+                "child":[
+                    {
+                        "type":"file",
+                        "name":"componentA.jsx"
+                    },
+                    {
+                        "type":"file",
+                        "name":"componentB.jsx"
+                    }
+                ]
+            },
+            {
+                "type":"file",
+                "name":"index.js"
+            },
+            {
+                "type":"file",
+                "name":"App.js"
+            }
+        ]
+       }
+    ]
+}
